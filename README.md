@@ -1,4 +1,4 @@
-https://gina-frigman-dinos.netlify.app/history
+https://gina-frigman-dinos.netlify.app/
 
 # Getting Started with Create React App
 
