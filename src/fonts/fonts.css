@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url(./Unbounded-VariableFont_wght.woff) format("woff"),
+         url(./Unbounded-VariableFont_wght.woff2) format("woff2");
+    font-weight: 400;
+    font-variation-settings: "wght" 400;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(./Unbounded-VariableFont_wght.woff) format("woff"),
+         url(./Unbounded-VariableFont_wght.woff2) format("woff2");
+    font-weight: 400;
+    font-variation-settings: "wght" 500;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(./Nunito-Medium.woff) format("woff"),
+         url(./Nunito-Medium.woff2) format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Coffeehouse";
+    src: url(./CoffeehouseCyrilic-Regular_0.woff) format("woff"),
+         url(./CoffeehouseCyrilic-Regular_0.woff2) format("woff2");
+    font-weight: 400;
+}

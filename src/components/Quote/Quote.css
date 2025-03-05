@@ -1,0 +1,63 @@
+.quote {
+    width: 60%;
+    margin: 0 auto 75px;
+    padding: 50px 0;
+    border-top: #FFFBD9 solid 4px;
+    border-bottom: #FFFBD9 solid 4px;
+}
+
+.quote__text {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Coffeehouse', 'Unounded', Helvetica;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.quote__author {
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Nunito';
+    font-size: 20px;
+    line-height: 25px;
+}
+
+@media screen and (width < 768px) {
+    .quote {
+        margin-bottom: 50px;
+    }
+
+    .quote__text {
+        width: 80%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .quote__author {
+        padding-top: 30px;
+        width: 80%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (width < 400px) {
+    .quote {
+        margin-bottom: 40px;
+    }
+
+    .quote__text {
+        width: 80%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .quote__author {
+        padding-top: 30px;
+        width: 80%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+}

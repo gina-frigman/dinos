@@ -1,0 +1,125 @@
+.header {
+    margin: 0 auto;
+    padding: 176px 0 170px;
+    font-family: 'Unbounded';
+    width: 85%;
+}
+
+.header__link {
+    margin: 0;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+    color: #FFFBD9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header__link:hover {
+    opacity: 0.4;
+    transition: opacity ease-out .3s;
+}
+
+.header__link_main {
+    position: absolute;
+    top: 72px;
+    left: 10%;
+}
+
+.header__link_underlined {
+    text-decoration: underline;
+}
+
+.header__link_up {
+    font-size: 20px;
+    position: fixed;
+    bottom: 72px;
+    left: 5%;
+}
+
+.header__link_img {
+    width: 8%;
+}
+
+.header__title {
+    font-family: 'Coffeehouse', 'Unbounded', Helvetica;
+    font-size: 96px;
+    margin: 0;
+    line-height: 105px;
+}
+
+.header__text {
+    font-size: 48px;
+    margin-top: 20px;
+    line-height: 55px;
+    padding-bottom: 85px;
+    border-bottom: #FFFBD9 4px solid;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (width < 768px) {
+    .header {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .header__link_main {
+        top: 40px;
+    }
+
+    .header__link_up {
+        bottom: 50px;
+        left: 3%;
+    }
+
+    .header__link {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header__title {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .header__text {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (width < 400px) {
+    .header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header__link_main {
+        top: 30px;
+    }
+
+    .header__link_up {
+        bottom: 40px;
+    }
+
+    .header__link {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .header__title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .header__text {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 35px;
+    }
+}

@@ -1,0 +1,9 @@
+.App {
+  background-color: #162718;
+  color: #FFFBD9;
+  margin: 0;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  min-height: 100vh;
+  width: 100%;
+}
